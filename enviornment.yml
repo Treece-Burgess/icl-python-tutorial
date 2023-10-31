@@ -1,0 +1,12 @@
+name: icl-tutorial-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pip
+  - pip:
+    - seaborn
+    - plotly
+    - pandas
+    - matplotlib
