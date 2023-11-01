@@ -1,0 +1,25 @@
+type, origin, target, gemm, go, A, B, C, transA, transB, m, n, k, alpha, beta, nb, p, q, la, error, time (s), gflop/s, ref time (s), ref gflop/s, status
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 1234, 1234, 1234, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 1.23e-16, 0.273, 13.755, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 1234, 1234, 1234, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 1.25e-16, 0.0249, 151.184, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 1234, 1234, 1234, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 1.21e-16, 0.0249, 150.812, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 8000, 8000, 8000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 1.15e-16, 1.364, 750.784, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 8000, 8000, 8000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 1.15e-16, 0.146, 7023.600, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 8000, 8000, 8000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 1.13e-16, 0.118, 8660.048, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 16000, 16000, 16000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 2.54e-16, 0.279, 29379.451, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 16000, 16000, 16000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 2.53e-16, 0.281, 29104.747, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 16000, 16000, 16000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 2.54e-16, 0.259, 31598.288, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 32000, 32000, 32000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 2.46e-16, 0.752, 87184.866, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 32000, 32000, 32000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 2.46e-16, 0.742, 88329.815, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 32000, 32000, 32000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 2.44e-16, 0.761, 86074.102, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 64000, 64000, 64000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 2.92e-16, 2.534, 206924.465, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 64000, 64000, 64000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 2.90e-16, 2.474, 211916.993, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 64000, 64000, 64000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 2.91e-16, 2.461, 213025.080, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 96000, 96000, 96000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 3.26e-16, 5.064, 349389.307, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 96000, 96000, 96000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 3.26e-16, 5.014, 352923.771, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 96000, 96000, 96000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 3.25e-16, 4.915, 360017.280, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 128000, 128000, 128000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 3.88e-16, 8.722, 480892.947, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 128000, 128000, 128000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 3.86e-16, 8.694, 482462.222, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 128000, 128000, 128000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 3.86e-16, 8.707, 481714.192, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 256000, 256000, 256000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 5.38e-16, 59.966, 559557.405, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 256000, 256000, 256000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 5.37e-16, 60.228, 557125.232, NA, NA, pass
+d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 256000, 256000, 256000, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 5.38e-16, 60.199, 557391.223, NA, NA, pass
