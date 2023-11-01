@@ -8,5 +8,5 @@ dependencies:
   - pip:
     - seaborn
     - plotly
-    - pandas=1.4.2
+    - pandas==1.4.2
     - matplotlib
