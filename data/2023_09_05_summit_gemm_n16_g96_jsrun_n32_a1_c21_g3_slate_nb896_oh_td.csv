@@ -1,4 +1,4 @@
-type, origin, target, gemm, go, A, B, C, transA, transB, m, n, k, alpha, beta, nb, p, q, la, error, time (s), gflop/s, ref time (s), ref gflop/s, status
+type,origin,target,gemm,go,A,B,C,transA,transB,m,n,k,alpha,beta,nb,p,q,la,error,time(s),gflops,ref time (s),ref gflop/s,status
 d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 1234, 1234, 1234, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 1.23e-16, 0.273, 13.755, NA, NA, pass
 d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 1234, 1234, 1234, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 1.25e-16, 0.0249, 151.184, NA, NA, pass
 d, host, dev, auto, col, 1, 1, 1, notrans, notrans, 1234, 1234, 1234, 3.1+1.4i, 2.7+1.7i, 896, 8, 4, 1, 1.21e-16, 0.0249, 150.812, NA, NA, pass
